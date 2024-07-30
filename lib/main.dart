@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:graphql/views/screens/home_screen.dart';
 
 void main(List<String> args) {
-  runApp(Myapp());
+  runApp(const Myapp());
 }
 
-class Myapp extends StatelessWidget { 
+class Myapp extends StatelessWidget {
   const Myapp({super.key});
 
   @override
